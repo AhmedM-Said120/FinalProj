@@ -1,0 +1,12 @@
+.bgShadow{
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+.bgImg{
+    background-image: url(../../Assets/img/login.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

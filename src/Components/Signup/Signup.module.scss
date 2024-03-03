@@ -1,0 +1,17 @@
+.bgShadow{
+
+
+    background: transparent;
+    backdrop-filter: blur(20px);
+
+}
+
+
+.bgImg{
+    background-image: url(../../Assets/img/pexels-stephan-seeber-1261728.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,14 @@
+.imground {
+  height: 120px !important;
+  border-radius: 100% !important;
+  width: 120px !important;
+}
+
+.cardImage {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.cardImage:hover {
+  box-shadow: 0 2px 4px -1px rgba(46, 112, 177, 0.2), 0 4px 5px 0 rgba(132, 182, 233, 0.14), 0 1px 10px 0 rgba(68, 129, 191, 0.12) !important;
+  transform: translate3d(0, -3px, 0) !important;
+}/*# sourceMappingURL=Category.module.css.map */

@@ -1,0 +1,14 @@
+.bgShadow {
+  background: transparent;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.bgImg {
+  background-image: url(../../Assets/img/login.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=Signin.module.css.map */

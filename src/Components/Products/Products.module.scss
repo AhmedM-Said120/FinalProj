@@ -1,0 +1,26 @@
+$myColor: #099309;
+
+    .product{
+        transition: border .5s ease-in !important;
+        position: relative; 
+        border-radius: 50% !important;
+        padding: 12px;
+    .overlayBtns{
+    opacity: 0 !important;
+    transition: all .3s , opacity .3s;
+    transform: translateY(100%) !important;
+}
+    }
+
+    .product:hover{
+        border: 1.1px solid $myColor!important;
+        
+        .overlayBtns{
+            opacity: 1 !important;
+            transform: translateY(0%) !important;
+
+        }
+    }
+    
+
+    
